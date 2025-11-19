@@ -54,12 +54,33 @@ This project implements a comprehensive signal classification system that can:
 pip install -r requirements.txt
 ```
 
-2. For audio recording support, you may need system dependencies:
+2. **Download sample datasets (No recording needed!):**
+```bash
+python download_dataset.py
+```
+
+This will create synthetic audio signals and optionally download real audio samples.
+
+3. For audio recording support (optional), you may need system dependencies:
    - **Linux:** `sudo apt-get install portaudio19-dev python3-pyaudio`
    - **macOS:** `brew install portaudio`
    - **Windows:** Usually works out of the box
 
 ## Usage
+
+### Quick Start (No Recording Needed!)
+
+1. **Download sample datasets:**
+```bash
+python download_dataset.py
+```
+This creates 8+ synthetic signals (sine waves, chirps, noise, etc.) automatically.
+
+2. **Analyze all downloaded signals:**
+```bash
+python analyze_dataset.py
+```
+This will process all signals and generate comprehensive analysis reports!
 
 ### Running the Main Program
 
@@ -73,7 +94,7 @@ python main.py
    - Demonstrates classification with 5 different test signals
    - Includes: sine waves, multi-frequency signals, exponential decay, white noise, and chirp signals
 
-2. **Record signals**
+2. **Record signals** (optional - you can skip this!)
    - Record real-life signals:
      - Fan noise (5 seconds)
      - Clapping (3 seconds)
@@ -82,7 +103,7 @@ python main.py
    - Automatically analyzes and saves recordings
 
 3. **Load signal from WAV file**
-   - Load and analyze existing WAV files
+   - Load and analyze existing WAV files from the downloaded dataset
    - Supports mono and stereo audio
 
 4. **Exit**
@@ -186,10 +207,14 @@ Contains WAV files of recorded signals for future analysis
 sns-signal-analysis/
 ├── signal_classifier.py    # Main classification module
 ├── main.py                  # Interactive main script
+├── download_dataset.py     # Download/create sample audio files
+├── analyze_dataset.py      # Batch analyze all dataset files
 ├── requirements.txt         # Python dependencies
 ├── README.md               # This file
+├── dataset/                # Downloaded audio samples
+│   └── synthetic/          # Synthetic test signals
 ├── output/                 # Generated analysis plots
-└── recordings/             # Recorded audio files
+└── recordings/             # Recorded audio files (optional)
 ```
 
 ## Troubleshooting
