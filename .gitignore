@@ -8,11 +8,14 @@ env/
 venv/
 ENV/
 
-# Output directories
-output/
-recordings/
-*.png
-*.wav
+# Output directories - Now tracking these for assignment submission
+# output/
+# recordings/
+# *.png
+# *.wav
+
+# Note: Keeping output and dataset directories in version control
+# for easy project demonstration and submission
 
 # IDE
 .vscode/

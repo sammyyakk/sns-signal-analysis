@@ -1,0 +1,29 @@
+======================================================================
+SIGNAL CLASSIFICATION ANALYSIS SUMMARY
+Author: Samyak Jain (07611502824)
+Branch: ECE-2, 2nd Year
+======================================================================
+
+Total Files Analyzed: 11
+
+File                           Periodic   Type            Duration  
+----------------------------------------------------------------------
+1-100032-A-0.wav               YES        Energy          5.00s
+1-100210-A-36.wav              YES        Energy          5.00s
+1-116765-A-41.wav              YES        Energy          5.00s
+sine_440hz.wav                 YES        Energy          3.00s
+square_wave.wav                YES        Energy          3.00s
+white_noise.wav                NO         Energy          3.00s
+chirp_signal.wav               NO         Energy          3.00s
+am_modulated.wav               YES        Energy          3.00s
+damped_oscillation.wav         YES        Energy          3.00s
+multi_frequency.wav            YES        Energy          3.00s
+pulse_signal.wav               YES        Energy          3.00s
+
+======================================================================
+STATISTICS
+======================================================================
+Periodic Signals:   9/11 (81.8%)
+Aperiodic Signals: 2/11 (18.2%)
+Energy Signals:    11/11 (100.0%)
+Power Signals:     0/11 (0.0%)
