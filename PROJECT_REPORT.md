@@ -140,16 +140,16 @@ The project analyzes 11 different audio signals comprising:
 
 ### 5.1 Classification Results Summary
 
-| Signal Name | Periodicity | Period (s) | Frequency (Hz) | Classification | Energy | Avg Power |
-|-------------|-------------|------------|----------------|----------------|--------|-----------|
-| Sine 440Hz | PERIODIC | 0.0023 | 440.00 | Energy Signal | 5.77e+05 | 9.60e-01 |
-| Square Wave | PERIODIC | 0.0100 | 100.00 | Energy Signal | 6.00e+05 | 1.00e+00 |
-| White Noise | APERIODIC | - | - | Power Signal | 7.21e+05 | 1.20e+00 |
-| Chirp Signal | APERIODIC | - | - | Energy Signal | 6.00e+05 | 1.00e+00 |
-| AM Modulated | PERIODIC | 0.1000 | 10.00 | Energy Signal | 4.50e+05 | 7.50e-01 |
-| Damped Osc. | APERIODIC | - | - | Energy Signal | 1.84e+05 | 3.07e-01 |
-| Multi-Freq | PERIODIC | 0.0050 | 200.00 | Energy Signal | 7.68e+05 | 1.28e+00 |
-| Pulse Signal | APERIODIC | - | - | Energy Signal | 6.00e+04 | 1.00e-01 |
+| Signal Name | Periodicity | Period (s) | Frequency (Hz) | Classification |
+|-------------|-------------|------------|----------------|----------------|
+| Sine 440Hz | PERIODIC | 0.0023 | 440.00 | Energy Signal |
+| Square Wave | PERIODIC | 0.0100 | 100.00 | Energy Signal |
+| White Noise | APERIODIC | - | - | Power Signal |
+| Chirp Signal | APERIODIC | - | - | Energy Signal |
+| AM Modulated | PERIODIC | 0.1000 | 10.00 | Energy Signal |
+| Damped Osc. | APERIODIC | - | - | Energy Signal |
+| Multi-Freq | PERIODIC | 0.0050 | 200.00 | Energy Signal |
+| Pulse Signal | APERIODIC | - | - | Energy Signal |
 
 ### 5.2 Statistical Analysis
 
